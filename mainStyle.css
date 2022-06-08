@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #2b2c48;
+  font-family: "Jost", sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1566738780863-f9608f88f3a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: auto;
+}
+
+.container {
+    background-color: #8919e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+	height: 500px;		
+	margin: auto+600px;
+}
+.container1 {
+    background-color: transparent;    
+    overflow: hidden;
+    width: 130px;
+    max-width: 100%;
+	height: 250px;		
+	margin: right;
+}
+
+.container.profile {
+    background-color: #8919e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;	
+	
+}
+.header {
+    background-color: #0000ae;
+	box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 40px;	
+	color: rgba(255, 255, 255, 1);
+}
+.header1 {
+    background-color: #fffff0;	
+    padding: auto;	
+	color: #000000;
+}
+.form-control textarea {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 14px;
+    display: block;
+    font-family: inherit;
+    padding: 10px;
+    width: 100%;
+	height: 100px;
+    max-width: 100%;
+}
+.button input {
+    background-color: #0000ff;    
+    color: #fff;
+    align-items: center;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.button:hover input {
+  background-color: #f08080;
+  transform: translateY(-2px);
+}
+.submitBtn {
+  display: flex;
+  margin-left: auto;
+  padding: auto;
+  border: none;
+  background-color: #30d5c8;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.submitBtn:hover {
+  background-color: #0000ff;
+  transform: translateY(-2px);
+}
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 2px;
+    font-size: 14px;
+    display: block;
+    font-family: inherit;
+    padding: 5px;
+    width: 50%;
+}
